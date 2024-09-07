@@ -16,7 +16,8 @@ class ApiManager{
    return sourcesResponse;
   }
   static Future<NewsResponse>getNews(String? sourceId)async{
-    //https://newsapi.org/v2/everything?q=bitcoin&apiKey=b91c352ffd044352bdbba7de31d67547
+    //https://newsapi.org/v2/everything?
+    // q=bitcoin&apiKey=b91c352ffd044352bdbba7de31d67547
     var url = Uri.https(baseUrl,"v2/everything",{
       "apiKey":apiKey,
       "sources":sourceId
