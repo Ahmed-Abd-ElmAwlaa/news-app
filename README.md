@@ -1,5 +1,9 @@
 # news_app
 
+Technologies : http, Cached Network Image, API integration.
+
+Features : Home page displaying all news categories, 
+      each category has its own news and sources for each news.
 
 ## Screens for this app
 <div>
